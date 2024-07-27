@@ -44,7 +44,7 @@ where:
 * 𝜇RE represents the mean of the reconstruction errors
 * 𝜎RE represents the standard deviation of the reconstruction errors
 
-### Prediction Service
+### Deployment
 The demo may be deployed with Streamlit as contained in the prod folder.
 <picture>
   <img src="AnomalyDetectionVisualization.png">
