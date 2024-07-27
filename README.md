@@ -26,7 +26,7 @@ Pipeline 2
 ### Model Selection
 LSTM VariationalAutoEncoder
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="lstmvae.png">
+  <img src="lstmvae.png">
 </picture>
 * LSTMs capture long-term dependencies in data sequences 
 * Autoencoders are trained on normal data, learning to reconstruct these inputs accurately. When an anomalous input is presented, the autoencoder struggles to reconstruct it, leading to a higher reconstruction error. This error is then used as a signal to detect anomalies.
@@ -47,6 +47,7 @@ where:
 ### Prediction Service
 The demo may be deployed with Streamlit as contained in the prod folder.
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="AnomalyDetectionVisualization.png">
+  <img src="AnomalyDetectionVisualization.png">
 </picture>
+
 
